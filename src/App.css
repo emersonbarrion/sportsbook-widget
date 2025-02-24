@@ -1,0 +1,49 @@
+#sportsbook-widget {
+    width:100%;
+    color: white;
+}
+
+.jmj-header {
+    background-color: black;
+    border-bottom: 1px solid red;
+    min-height: 50px;
+}
+
+.jmj-content {
+    background-color: #111;
+    display: flex;
+}
+
+.jmj-content > div {
+}
+
+.jmj-menu {
+    flex-basis: 20%;
+    background-color: black;
+}
+
+.jmj-menu-item {
+    border: 1px solid #333;
+    margin-bottom: 1px;
+    padding: 3px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.jmj-menu-item.selected {
+    background-color: #222;
+}
+
+.jmj-menu-item:hover {
+    background-color: #111;
+}
+
+.jmj-odds-table {
+    flex-basis: 60%;
+    background-color: #111;
+}
+
+.jmj-betslip {
+    flex-basis: 20%;
+    background-color: yellow;
+}
